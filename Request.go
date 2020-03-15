@@ -13,7 +13,7 @@ type LzhengHttp struct {
 func (l *LzhengHttp)SetHead(key,value string)  {
 	l.head[key]=value
 }
-func (l *LzhengHttp)SetParms(key,value string){
+func (l *LzhengHttp)SetParams(key,value string){
 	if l.form==nil{
 		l.form=make(url.Values)
 	}
