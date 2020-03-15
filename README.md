@@ -23,14 +23,14 @@ Post
 	resp,err:=req.Request("POST","http://www.baidu.com")
 ```
 
-### if you wanna add httpHead or Parms ,you can use these func
+### if you wanna add httpHead or Params ,you can use these func
 
 ``` go
 
 req.SetHead("Content-Type","application/x-www-form-urlencoded")
 req.SetHead("Connection","Keep")
 
-req.SetParms("password","ddd286eb2672e5c8998ccbc1bfc21fa1")
+req.SetParams("password","ddd286eb2672e5c8998ccbc1bfc21fa1")
 ```
 
 
