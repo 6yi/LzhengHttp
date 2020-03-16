@@ -34,7 +34,6 @@ req.SetParams("password","ddd286eb2672e5c8998ccbc1bfc21fa1")
 
 cook1:=http.Cookie{Name:"XSRF-TOKEN",
 		Value:"test",
-		Domain:"smart-ccdgut.com",
 		Path:"/"}
 cook2:=http.Cookie{Name:"test2",
 		Value:"test2",
